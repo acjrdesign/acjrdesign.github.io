@@ -1,0 +1,45 @@
+.mr-auto, .mx-auto {
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+
+.wrapper {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+    .nav-item {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: #B6B6B6;
+        font-weight: 400;
+        font-size: 0.875em;
+    }
+    .navbar-light .navbar-toggler {
+        color: none;
+        border-color: rgba(0,0,0,0);
+    }
+    .navbar-toggler-icon {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 0.775em;
+        text-decoration: underline;
+        background-image: none !important;
+        width: 3.5em !important;
+        font-weight: 700;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .bg-light {
+        background: #ffffff !important;
+    }
+}
